@@ -1,0 +1,46 @@
+{
+  "name": "fire1upload",
+  "version": "1.0.0",
+  "description": "Initial setup of the project.  Created with React, Webpack, and Firebase.",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "pro": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/fire1upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/fire1upload/issues"
+  },
+  "homepage": "https://github.com/indigomx9/fire1upload#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "firebase": "^9.7.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-hot-loader": "^4.13.0",
+    "react-router-dom": "^6.3.0",
+    "react-toastify": "^8.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
